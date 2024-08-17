@@ -1,0 +1,139 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+display: flex;
+background-color: #d9ab00;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 100px;
+}
+.logo{
+    width: 200px;
+
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    
+}
+.nav2{
+    display: flex;
+    gap: 40px;
+    
+}
+.section-1 {
+    display: flex;
+    background-color: #fbc302;
+    justify-content: space-around;
+}
+.texto-1{
+    font-size: 20px;
+    color: white;
+    width: 470px;
+    margin-top: 150px;
+    
+
+}
+.texto-1 h1{
+margin-bottom: 30px;
+
+}
+.perro-1 img{
+    width: 400px;
+   
+}
+.botones {
+ text-decoration: none;
+ text-align: justify;
+ 
+}
+.boton-azul{ 
+    background-color: #00bdc9;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+.boton-amarillo{
+  
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+.section-2{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    
+}.texto-2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 470px;
+    margin-top: 150px;
+}
+.texto-2 h1 {
+    margin-bottom: 30px;
+} .perro-2 img{
+    width: 400px;       
+    margin-top: 100px;
+}
+.boton-amarillo-2{
+    background-color: #fbc302;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: 1px solid #fbc302;
+}.section-3{
+    display: flex;
+    background-color: #fbc302;
+    justify-content: center;
+    height: 950px;
+    flex-direction: column;
+}
+.texto-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+.gran-perro{
+    display: flex;
+    justify-content: center;
+    gap: 147px;
+    margin-left: 10px;
+}
+.p{
+    display: flex;
+    width: 900px;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+}
+.perros-1{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+
